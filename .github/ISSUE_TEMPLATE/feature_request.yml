@@ -1,0 +1,36 @@
+name: Feature request
+description: Suggest a practical improvement to Writrex SEO
+title: "[Feature]: "
+labels: ["feature-request", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: Please focus on the problem and desired outcome. Do not include confidential account, payment or customer information.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      placeholder: It is difficult to...
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Who would benefit?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would a good outcome look like?
+    validations:
+      required: true
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Current workaround, if any
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested approach, if you have one
+      description: Optional. The problem statement is most important.
