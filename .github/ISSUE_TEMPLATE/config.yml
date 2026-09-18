@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask the community
+    url: https://github.com/writrex/writrex-seo-community/discussions
+    about: Ask a question, share an idea or discuss a workflow.
+  - name: Product support
+    url: https://seo.writrex.com/support
+    about: Get account or product help.
+  - name: Report a security concern privately
+    url: mailto:hello@writrex.com?subject=Writrex%20SEO%20security%20report
+    about: Do not report potential vulnerabilities in a public issue.
