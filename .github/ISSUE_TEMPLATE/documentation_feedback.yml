@@ -1,0 +1,25 @@
+name: Documentation feedback
+description: Tell us about unclear, missing or inaccurate public documentation
+title: "[Docs]: "
+labels: ["documentation", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include private reports, account information or security-sensitive details.
+  - type: input
+    id: location
+    attributes:
+      label: Page or document location
+      placeholder: https://github.com/writrex/writrex-seo-community/blob/main/FAQ.md
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is unclear, missing or inaccurate?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
